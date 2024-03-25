@@ -68,7 +68,7 @@ We welcome contributions to enhance [Project Name]. If you'd like to contribute:
 
 ## License
 
-This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [License Name] License - see the [LICENSE] Apache License file for details.
 
 ## Contact
 

@@ -1,0 +1,23 @@
+<div align="center">
+<h1>Login Here</h1>
+
+<style>
+    h3{
+        color : red;
+        text-align : center;
+    }
+
+</style>
+
+{% for message in messages %}
+<h3>{{message}}</h3>
+{% endfor %}
+
+<form action="login" method="POST">
+    {% csrf_token %}
+    <input type="text" name="username" placeholder="username" /><br><br>
+    <input type="password" name="password" placeholder="password" /><br><br>
+    <input type="submit" value="Login" /><br><br>
+    <input type="button"  onclick="location.href='/register'" value="Register" />
+</form>
+</div>
